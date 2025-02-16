@@ -3,7 +3,7 @@
 const header = document.getElementById('header');
 
 function toggleHeaderOnScroll() {
-    if (window.scrollY > 150) {
+    if (window.scrollY > 50) {
         header.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled');
